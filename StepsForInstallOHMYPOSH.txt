@@ -1,0 +1,26 @@
+1. winget install JanDeDobbeleer.OhMyPosh -s winget
+
+
+2. oh-my-posh font install
+
+3. Install the software "Windows Terminal" from Windows Store.
+
+4. get-poshThemes
+
+
+5. oh-my-posh init pwsh --config 'd:\scripts\lazyadmin\lazyadmin.omp.json' | Invoke-Expression
+
+6. 
+Install-Module -Name Terminal-Icons -Repository PSGallery
+
+Import-Module -Name Terminal-Icons
+
+7. 
+Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease
+
+8. 
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\clean-detailed.omp.json" 
+
+ponerlo en el archivo que se encuentra en Documentos\WindowsPowershell\Microsoft.Powershell_profile.psq
+
+y unicamente sustituir el JSON file para cambiar el Thema del prompt. 
